@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3835424" started-at="2019-09-20T01:09:00Z" finished-at="2019-09-20T02:12:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3835424" started-at="2019-09-20T01:09:00Z" finished-at="2019-09-20T02:12:55Z">
+      <class name="com.naukri.Tests.Technologywise_detailstest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.naukri.Tests.Technologywise_detailstest@3532ec19]" name="setup" is-config="true" duration-ms="24400" started-at="2019-09-20T01:09:03Z" finished-at="2019-09-20T01:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchtest(java.lang.String, java.lang.String)[pri:0, instance:com.naukri.Tests.Technologywise_detailstest@3532ec19]" name="searchtest" duration-ms="598692" started-at="2019-09-20T01:09:28Z" data-provider="getdata" finished-at="2019-09-20T01:19:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Protractor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchtest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.naukri.Tests.Technologywise_detailstest@3532ec19]" name="teardown" is-config="true" duration-ms="1874" started-at="2019-09-20T01:19:26Z" finished-at="2019-09-20T01:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.naukri.Tests.Technologywise_detailstest@3532ec19]" name="setup" is-config="true" duration-ms="23432" started-at="2019-09-20T01:19:28Z" finished-at="2019-09-20T01:19:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchtest(java.lang.String, java.lang.String)[pri:0, instance:com.naukri.Tests.Technologywise_detailstest@3532ec19]" name="searchtest" duration-ms="3182176" started-at="2019-09-20T01:19:52Z" data-provider="getdata" finished-at="2019-09-20T02:12:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchtest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.naukri.Tests.Technologywise_detailstest@3532ec19]" name="teardown" is-config="true" duration-ms="1349" started-at="2019-09-20T02:12:54Z" finished-at="2019-09-20T02:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.naukri.Tests.Technologywise_detailstest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
